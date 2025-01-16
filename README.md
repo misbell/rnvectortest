@@ -28,19 +28,18 @@ include this in your compiler options to prevent false 'errors' from presenting 
   }
 ```
 
-## Step 4:
+## Step 3:
 
 Download the project from github. Copy the contents of the Fonts folder to:
 
-**app/src/assets/fonts for Android
+**into the app/src/assets/fonts for Android
+
 **into the Fonts folder in the project folder in iOS
 
 here's the github for the package:
 https://github.com/oblador/react-native-vector-icons
 
-## Step 3: 
-
-
+## Step 4: 
 
 here's the NPM page:
 https://www.npmjs.com/package/react-native-vector-icons
@@ -49,27 +48,11 @@ follow the simple directions for iOS install on the NPM page
 
 follow the manual directions for the Android install, but don't do the final step, installing the VectorIconsPackage.
 
+This video will guide you through that:
+https://www.youtube.com/watch?v=ZI9cCrKaZJg
 
-
-```
-
-```
 
 ### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+- I plan to expand the tutorial and show adding custom fonts etc. Stay tuned.
 
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
