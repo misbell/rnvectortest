@@ -3,11 +3,12 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 # React Native Vector Icons Test
 # Getting Started
 
->**Note**: At present, the only font character displayed is a single rocketship in the usual React Native kickstart header. That is intentional. The purpose of this test is to document how to bootstrap react-native-vector-icons in your app. After you finish the process, the app should build and compile on both iOS and Android, should display a rocketship icon, and the <Icon> component should appear in your Visual Studio Code editor without a squiggly red line; that is, the syntax should be understood as a proper JSX component.
+>**Note**: At present, the only font character displayed is a single rocketship in the usual React Native kickstart header. That is intentional. The purpose of this test is to document how to bootstrap react-native-vector-icons in your app. After you finish the process, the app should build and compile on both iOS and Android, should display a rocketship icon, and the Icon component should appear in your Visual Studio Code editor without a squiggly red line; that is, the syntax should be understood as a proper JSX component.
 
 ## Step 1: install the packages
 
-```yarn add react-native-vector-icons
+```
+yarn add react-native-vector-icons
 yarn add -D @types/react-native-vector-icons
 cd ios
 pod install
@@ -15,9 +16,10 @@ pod install
 
 ## Step 2: Set up tsconfig.json
 
-include this in your compiler options to prevent false 'errors' from presenting when you use <Icon>
+include this in your compiler options to prevent false 'errors' from presenting when you use the Icon component.
 
-```"compilerOptions": {
+```
+"compilerOptions": {
     "paths": {
       "react": ["./node_modules/@types/react"]
     }
