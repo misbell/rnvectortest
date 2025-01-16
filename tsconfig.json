@@ -1,6 +1,11 @@
 {
   "extends": "@react-native/typescript-config/tsconfig.json",
+  // this fixed the react native vector icons problem
+  // vscode gave red s squiggly line error 
   "compilerOptions": {
-    "typeRoots": ["node_modules/@types"]
+    "paths": {
+      "react": ["./node_modules/@types/react"]
+    }
   }
 }
+

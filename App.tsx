@@ -25,12 +25,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Icon from 'react-native-vector-icons/Ionicons';
-
+import  Icon  from 'react-native-vector-icons/Ionicons';
 
 //import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-
- 
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -80,8 +77,10 @@ function App(): React.JSX.Element {
         style={backgroundStyle}>
         <Header />
         <View> 
-        // @ts-ignore
-        <Icon name="rocket" size={30} color="#900" />
+        <Text>
+        <Icon name="rocket" size={30} color="#900" /> 
+        
+        </Text>
         </View>
         <View
           style={{
